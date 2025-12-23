@@ -2,7 +2,7 @@ export type KeepAliveConfig = typeof keepAliveConfig;
 
 export const keepAliveConfig = {
   // Select a table in your Supabase database to make a call to
-  table: 'keep-alive',
+  table: 'keep_alive',
 
   // Column that will be queried with a random string
   column: 'name',

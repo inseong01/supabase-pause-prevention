@@ -14,8 +14,5 @@ export const keepAliveConfig = {
 
   consoleLogOnError: true,
 
-  otherEndpoints: [
-    'https://supabase-pause-prevention-beta.vercel.app/api/keep-alive',
-    'https://your-other-supabase-app.com/api/keep-alive',
-  ],
+  otherEndpoints: ['https://supabase-pause-prevention-beta.vercel.app/api/keep-alive'],
 };
